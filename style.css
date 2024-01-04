@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+    max-width: 1510px;
+}
+
+#main{
+    width: 1520px;
+    height: 630px;
+    margin-left: 13px;
+    background-color:rgba(255, 229, 7, 0.07); 
+    display: flex;
+    flex-direction: column;
+}
+
+#nav{
+    margin-top: 30px;
+    margin-left:250px;
+    display: flex;
+}
+
+.nav-container{
+    display: flex;
+    align-items: center;
+}
+
+.logo, .search-bar{
+    margin: 0 20px;
+}
+
+.logo-text1{
+    color: rgba(255, 255, 255, 1);
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 10px;
+    letter-spacing: -0.01em;
+    background-color: rgba(249, 74, 61, 1);
+    padding: 4px;
+    border-radius: 5px;
+    
+}
+
+.logo-text2{
+    font-size: 25px;
+   
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    margin-left: 10px;
+    color: rgba(249, 74, 61, 1);
+}
+
+.nav-links{
+    margin: 0 60px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: rgba(33, 34, 68, 1);
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.search-bar{
+    width: 180px;
+    height: 30px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    border: 1px solid rgba(105, 105, 123, 0.1);
+    box-shadow: 0px 6px 30px 0px rgba(0, 0, 0, 0.04);
+
+}
+
+.search-bar input{
+    width: 140px;
+    border: 0;
+    outline: 0;
+    color: rgba(105, 105, 123, 1);
+}
+
+.search-bar .fa-magnifying-glass{
+    color: rgba(105, 105, 123, 1);
+    width: 5px;
+}
+
+.fa-bag-shopping{
+    width: 28px;
+    color: rgba(35, 35, 35, 1);
+    transform: translateY(6px);
+}
+
+.signin-btn{
+    border: 0;
+    background: rgba(249, 74, 61, 1);
+    color: white;
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#main-container{
+    display: flex;
+    margin-top: 10px;
+}
+.main-text{
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 260px;
+}
+
+.main-text-qoute{
+    background-color: rgb(253, 236, 236);
+    width: 170px;
+    padding: 8px;
+    display: flex;
+    border-radius: 10px;
+    word-spacing: 2px;
+    color: red;
+    font-weight: 800;
+}
+
+.main-text-qoute .fa-burger{
+    margin-left: 8px;
+    background-color: white;
+    border-radius: 50%;
+    width: 2px;
+
+}
+
+.text-heading{
+    color: rgb(33, 34, 68);
+    font-size: 36px;
+    margin-top: 4px;
+}
+
+.text-desc{
+    margin-top: 10px;
+    color: rgba(105, 105, 123, 1);
+    line-height: 22px;
+
+}
+
+.explore-btn{
+    margin-top: 20px;
+    border: 0;
+    background: rgba(249, 74, 61, 1);
+    color: white;
+    width: 120px;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.delivery-img{
+    transform: translateX(-90px);
+}
+
+
+#section2{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.section2-container{
+    display: flex;
+    flex-direction: row;
+    column-gap: 90px;
+}
+
+.card1 img{
+    width: 200px;
+}
+
+.best-in-town-text h2{
+    color: rgba(33, 34, 68, 1);
+    font-size: 40px;
+}
+
+.best-in-town-text p{
+    color: rgba(105, 105, 123, 1);
+    line-height: 22px;
+    margin-top: 10px;
+    font-size: 15x;
+}
+
+.card1 p{
+    color: rgba(33, 34, 68, 1);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#section3{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.recipes-card1 img{
+    width: 200px;
+}
+
+.special-recipes p{
+    color: rgba(33, 34, 68, 1);
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 280px;
+}
+
+.categories{
+    margin-top: 30px;
+    display: flex;
+    
+}
+
+.categories a{
+    text-decoration: none;
+    color: rgba(33, 34, 68, 1);
+    font-size: 22px;
+    margin-left: 60px;
+    
+}
+
+.cards-container{
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+    margin-top: 50px;
+}
+
+.recipes-card1 img{
+    width: 200px;
+}
+
+.rating img{
+    width: 130px;
+    transform: translateX(100px);
+    transform: translateY(-10px);
+
+}
+
+.food-desc .price{
+    color: red;
+    font-weight: bolder;
+}
+.food-desc, .price{
+    transform: translateX(10px);
+    transform: translateY(-30px);
+}
+
+.food-card-btn{
+    color: red;
+    border: 2px solid red;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    transform: translateY(-20px);
+}
+
